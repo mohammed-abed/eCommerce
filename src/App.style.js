@@ -181,7 +181,7 @@ export const InnerSectionStart = styled(InnerSection)`
   margin: 60px 0;
 `;
 export const FlexRowBorder = styled(FlexRow)`
-  border: 2px solid #fcdd06;
+  border: 2px solid #1B998B;
   border-radius: 16px;
   margin-bottom: 30px;
   padding: 40px 0;
@@ -218,7 +218,7 @@ export const SpinnerContainer = styled.div`
   display: inline-block;
   width: 60px;
   height: 60px;
-  border: 6px solid #fcdd06;
+  border: 6px solid #1B998B;
   box-sizing: border-box;
   border-radius: 50%;
   border-top-color: #ddd;
@@ -240,7 +240,7 @@ export const SpinnerContainer = styled.div`
 export const HrDiv = styled("div")`
   width: 200px;
   height: 7px;
-  background-color: #fcdd06;
+  background-color: #1B998B;
   position: relative;
   top: 1px;
   /* background-image: linear-gradient(to right , #FCDD06 0px,#FCDD06 200px,transparent 200px,transparent); */

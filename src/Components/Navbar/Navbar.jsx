@@ -115,7 +115,7 @@ export function Navbar({ state }) {
         <InnerNav>
           <NavBox>
             <HeaderText to={"/"}>
-              <SpanNav>Pro</SpanNav>Shop
+              <SpanNav>Electro</SpanNav>Shop
             </HeaderText>
           </NavBox>
           <NavBoxSearch>
