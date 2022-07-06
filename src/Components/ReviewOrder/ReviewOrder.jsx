@@ -136,7 +136,7 @@ export default function ReviewOrder() {
                 >
                   Name on Card
                 </Text>
-                <InputText value="Mona Mohammed" />
+                <InputText value=" Mohammed Abed" />
               </FlexCol>
               <FlexCol align="flex-start" width="48%">
                 <Text

@@ -71,8 +71,7 @@ export default function PlaceOnOreder() {
                   weight="700"
                   marginA="10px 0 16px"
                 >
-                  Mona Mohammed
-                </Text>
+                  {state.userDetails.user.name}                </Text>
                 <Text
                   width="250px"
                   weight="700"
@@ -143,7 +142,7 @@ export default function PlaceOnOreder() {
             <FlexRowStartCenter>
               <Image src={visa} width="80px" />
               <Text color="#70707095" weight="700">
-                **** 1245
+                **** 9875
               </Text>
             </FlexRowStartCenter>
           </FlexCol950px>
