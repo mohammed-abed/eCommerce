@@ -48,7 +48,7 @@ export default function PlaceOnOreder() {
                   weight="700"
                   marginA="10px 0 16px"
                 >
-                  Mona Mohammed
+                   Mohammed Abed {state.userDetails.user.name}
                 </Text>
                 <Text
                   width="250px"

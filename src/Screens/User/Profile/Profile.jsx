@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { getDataToProfileAction, logoutAction } from "../../../Redux/User/UserActions";
 import Button from "../../../Components/Button/Button";
-import photo from "../../../Assets/photo.jpg";
+import photo from "../../../Assets/photo.jpeg";
 import {
   Image,
   InnerCard,
