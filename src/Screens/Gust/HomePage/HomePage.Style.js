@@ -47,7 +47,7 @@ export const SectionBox = styled(FlexRow)`
 export const DotSpan = styled("span")`
   width: ${(props) => (props.width ? "25px" : "14px")};
   height: ${(props) => (props.height ? "25px" : "14px")};
-  background: ${(props) => (props.isGray ? "#70707030" : "#fcdd06")} 0% 0%
+  background: ${(props) => (props.isGray ? "#70707030" : "#1B998B")} 0% 0%
     no-repeat padding-box;
   border-radius: 50%;
   margin: ${(props) => (props.margin ? "0 10px" : "0 0 0 10px")};
@@ -56,7 +56,7 @@ export const DotSpan = styled("span")`
 export const DotSpanSlider = styled("span")`
   width: 25px;
   height: 25px;
-  background: ${(props) => (props.isGray ? "#70707030" : "#fcdd06")} 0% 0%
+  background: ${(props) => (props.isGray ? "#70707030" : "#1B998B")} 0% 0%
     no-repeat padding-box;
   border-radius: 50%;
   margin: 0 10px;
@@ -65,7 +65,7 @@ export const DotSpanSlider = styled("span")`
 export const DotSpanSection = styled("span")`
   width: 14px;
   height: 14px;
-  background: ${(props) => (props.isGray ? "#70707030" : "#fcdd06")} 0% 0%
+  background: ${(props) => (props.isGray ? "#70707030" : "#1B998B")} 0% 0%
     no-repeat padding-box;
   border-radius: 50%;
   margin: 0 0 0 10px;

@@ -20,7 +20,7 @@ export const RIcon = styled("span")`
   justify-content: center;
   align-items: center;
   :hover {
-    border: 1px solid #fcdd06;
+    border: 1px solid #1B998B;
   }
 `;
 export const FlexColContainer = styled(FlexCol)`

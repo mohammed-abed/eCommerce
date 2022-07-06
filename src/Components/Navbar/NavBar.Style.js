@@ -31,7 +31,7 @@ export const NavBoxSearch = styled(NavBox)`
   background: #fff;
   border-radius : 6px;
   width: 33%;
-  min-width: 250;
+  min-width: 250px;
 `;
 export const HeaderText = styled(Link)`
   color: #fff;
@@ -43,7 +43,7 @@ export const HeaderText = styled(Link)`
   }
 `;
 export const SpanNav = styled("span")`
-  color: #fcdd06;
+  color: #1B998B;
 `;
 export const InputText = styled("input")`
   height: 40px;
@@ -73,7 +73,7 @@ export const ButtonNav = styled("button")`
   height: 40px;
   font-size: 18px;
   font-weight: 500;
-  background: #fcdd06 0% 0% no-repeat padding-box;
+  background: #1B998B 0% 0% no-repeat padding-box;
   border-radius: 6px;
   opacity: 1;
   cursor: pointer;
@@ -92,7 +92,7 @@ export const Icon = styled(Link)`
   margin: auto 0 auto 32px;
   span {
     color: #000;
-    background: #fcdd06;
+    background: #1B998B;
     font-size: 8px;
     font-weight: 700;
     border-radius: 50%;
@@ -108,7 +108,7 @@ export const Icon = styled(Link)`
   }
 `;
 export const SearchIconNav = styled(SearchIcon)`
-  font-size: 18;
+  font-size: 18px;
   margin-right: 10px;
 `;
 
@@ -119,7 +119,7 @@ export const SmallScreenMenu = styled(FlexCol)`
   padding: 40px 20px;
   background: #000;
   z-index: 100;
-  color: #fcdd06 !important;
+  color: #1B998B !important;
   justify-content: start;
 
   animation: ease-in-out menu 500ms;

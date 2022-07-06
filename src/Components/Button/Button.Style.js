@@ -7,7 +7,7 @@ export const CustomeButton = styled(Link)`
   justify-content: center;
   text-decoration: none;
   align-items: center;
-  background: ${(props) => (props.isGray ? "#F2F2F2" : "#FCDD06")};
+  background: ${(props) => (props.isGray ? "#F2F2F2" : "#1B998B")};
   background: ${(props) => props.bgcolor};
   color: #242424;
   color:${(props) => props.color};

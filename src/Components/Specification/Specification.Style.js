@@ -26,13 +26,13 @@ export const RIcon = styled("span")`
   justify-content: center;
   align-items: center;
   :hover {
-    border: 2px solid #fcdd06;
+    border: 2px solid #1B998B;
   }
 `;
 export const SpecificationDiv = styled("div")`
   display: flex;
   flex-direction: column;
-  justify-content: "space-between";
+  justify-content: space-between;
   width: 97%;
   margin: 5px;
   border-radius: 10px;

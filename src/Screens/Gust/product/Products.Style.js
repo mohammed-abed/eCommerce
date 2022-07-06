@@ -161,7 +161,7 @@ export const LoadMore = styled(FlexRow)`
   width: 200px;
   height: 50px;
   font-size: 18px;
-  background: ${(props) => (props.isLoading ? "#ddd" : "#fcdd06")};
+  background: ${(props) => (props.isLoading ? "#ddd" : "#1B998B")};
   color: #000;
   border-radius: 21px;
   margin-bottom: 20px;

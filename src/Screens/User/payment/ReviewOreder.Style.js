@@ -42,7 +42,7 @@ export const SpanOrder = styled(Span)`
   align-items: center;
 `;
 export const SpanOrder2 = styled(SpanOrder)`
-  background: #fcdd06;
+  background: #1B998B;
   color: #000;
 `;
 
@@ -69,13 +69,13 @@ export const FlexCol950px = styled(FlexColStartStart)`
 export const Text22 = styled(Text)`
   color: #70707095;
   font-weight: 700;
-  font-size: "22px";
+  font-size: 22px;
   border-bottom: 1px solid #707070;
 `;
 
 export const Textwidth30 = styled(Text22)`
   width: 30%;
-  font-size: "16px";
+  font-size: 16px;
   border: none;
 `;
 export const TextFlexEnd = styled(Textwidth30)`
@@ -92,7 +92,7 @@ export const SpanShipping = styled(Span)`
   width: 40px;
   font-weight: 700;
   height: 40px;
-  background: ${(props) => (props.isOpacity ? "#FDEB6A" : "#fcdd06")};
+  background: ${(props) => (props.isOpacity ? "#FDEB6A" : "#1B998B")};
   color: ${(props) => (props.isOpacity ? "#8B8979" : "#000")};
   font-size: 22px;
   justify-content: center;
@@ -102,7 +102,7 @@ export const TextShipping = styled(Text)`
   color: ${(props) => (props.isOpacity ? "#8B8979" : "#000")};
 `;
 export const SpanPlaceOrder = styled(SpanShipping)`
-  background: ${(props) => (props.isOpacity ? "#A9A9A9" : "#fcdd06")};
+  background: ${(props) => (props.isOpacity ? "#A9A9A9" : "#1B998B")};
   color: ${(props) => (props.isOpacity ? "#fff" : "#000")};
 `;
 export const TextPlaceOrder = styled(Text)`
@@ -112,7 +112,7 @@ export const TextPlaceOrder = styled(Text)`
 export const Hr = styled("div")`
   width: 30%;
   height: 1px;
-  background: ${(props) => (props.isOpacity ? "#70707080" : "#fcdd06")};
+  background: ${(props) => (props.isOpacity ? "#70707080" : "#1B998B")};
   justify-content: center;
   margin: 0 20px 0 0;
   @media screen and (max-width: 800px) {
